@@ -26,4 +26,63 @@ a {
     text-decoration: none;
 }
 
-/* < !--================================= STYLES ======================================--> */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafaea;
+}
+
+/* < !--======================================HEADER======================================--> */
+.sec-header {
+    margin-bottom: 50px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-hreader {
+    display: flex;
+    gap: 40px;
+    padding: 20px 0 20px 0;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #703412;
+}
+
+/* < !--======================================HEADER======================================--> */
+.sec-hero {
+    max-width: 1200px;
+    height: 572px;
+    margin-bottom: 50px;
+}
+
+.container-hero {
+    margin-left: 72px;
+    max-width: 848px;
+}
+
+.para-hero {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 4;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #703412;
+    padding-bottom: 21px;
+}
+
+.title-hero {
+    font-family: "Roboto",
+    sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 1.1;
+    color: #703412;
+}
